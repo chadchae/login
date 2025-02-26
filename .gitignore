@@ -1,3 +1,7 @@
 _사용설명
 login.Rproj
 .Rproj.user
+.gitignore
+.Rhistory
+.DS_Store
+/.Rproj.user/
