@@ -6,10 +6,38 @@ website:
   title: "Chad Portal"
   navbar:
     left:
-      - href: https://chadchae.github.io/portfolio_course
-        text: Research Portfolio
-      - href: https://chadchae.github.io/portfolio_working
-        text: Course Portfolio
+      - text: "Research"
+        menu:
+          - text: Working Research Portfolio
+            href: https://chadchae.github.io/portfolio_working
+          - text: Completed Research Project Archieve
+            href: TBA 
+      - text: "Course Development"
+        menu:
+          - text: Current Teaching Courses Portfolio
+            href: https://chadchae.github.io/portfolio_course
+          - text: Completed Course Development Portfolio
+            href: TBA 
+      - text: "Lecture Series"
+        menu:
+          - text: TBA
+            href: TBA 
+      - text: "Workshop"
+        menu:
+          - text: TBA 
+            href: TBA
+      - text: "Presentation & Talk"
+        menu:
+          - text: TBA 
+            href: TBA 
+      - text: "Development"
+        menu:
+          - text: TBA 
+            href: TBA 
+      - text: "ETC"
+        menu:
+          - text: TBA 
+            href: TBA 
 
 format:
   html:

@@ -2,4 +2,30 @@
 title: "Chad's Intellectural Portal"
 ---
 
-Welcome, you have access to Chad (Chungil Chae)'s intellectual portal.
+# Welcome
+
+You have access to Chad (Chungil Chae)'s intellectual portal. Currently, you can access to Chad's Course Portfolio Potal and Working Research Potal. This is the main gate of Chad's intellectural works.
+
+## Research
+- Working Research Portfolio
+- Completed Research Project Archieve
+
+## Course Development
+- Current Teaching Courses Portfolio
+- Completed Course Development Portfolio
+
+## Lecture Series
+
+
+## Workshop
+
+
+## Presentation & Talk
+
+
+## Development
+
+
+## ETC
+
+

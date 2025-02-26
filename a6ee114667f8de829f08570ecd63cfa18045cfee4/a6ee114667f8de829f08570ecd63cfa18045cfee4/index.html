@@ -93,14 +93,91 @@ window.addEventListener('load', () => {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://chadchae.github.io/portfolio_course"> 
-<span class="menu-text">Research Portfolio</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="https://chadchae.github.io/portfolio_working">
+ <span class="dropdown-text">Working Research Portfolio</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://chadchae.github.io/portfolio_working"> 
-<span class="menu-text">Course Portfolio</span></a>
+        <li>
+    <a class="dropdown-item" href="./TBA">
+ <span class="dropdown-text">Completed Research Project Archieve</span></a>
   </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-course-development" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Course Development</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-course-development">    
+        <li>
+    <a class="dropdown-item" href="https://chadchae.github.io/portfolio_course">
+ <span class="dropdown-text">Current Teaching Courses Portfolio</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./TBA">
+ <span class="dropdown-text">Completed Course Development Portfolio</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lecture-series" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Lecture Series</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-lecture-series">    
+        <li>
+    <a class="dropdown-item" href="./TBA">
+ <span class="dropdown-text">TBA</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-workshop" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Workshop</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-workshop">    
+        <li>
+    <a class="dropdown-item" href="./TBA">
+ <span class="dropdown-text">TBA</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-presentation--talk" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Presentation &amp; Talk</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-presentation--talk">    
+        <li>
+    <a class="dropdown-item" href="./TBA">
+ <span class="dropdown-text">TBA</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-development" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Development</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-development">    
+        <li>
+    <a class="dropdown-item" href="./TBA">
+ <span class="dropdown-text">TBA</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-etc" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ETC</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-etc">    
+        <li>
+    <a class="dropdown-item" href="./TBA">
+ <span class="dropdown-text">TBA</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -112,8 +189,23 @@ window.addEventListener('load', () => {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
+  <ul class="collapse">
+  <li><a href="#research" id="toc-research" class="nav-link" data-scroll-target="#research">Research</a></li>
+  <li><a href="#course-development" id="toc-course-development" class="nav-link" data-scroll-target="#course-development">Course Development</a></li>
+  <li><a href="#lecture-series" id="toc-lecture-series" class="nav-link" data-scroll-target="#lecture-series">Lecture Series</a></li>
+  <li><a href="#workshop" id="toc-workshop" class="nav-link" data-scroll-target="#workshop">Workshop</a></li>
+  <li><a href="#presentation-talk" id="toc-presentation-talk" class="nav-link" data-scroll-target="#presentation-talk">Presentation &amp; Talk</a></li>
+  <li><a href="#development" id="toc-development" class="nav-link" data-scroll-target="#development">Development</a></li>
+  <li><a href="#etc" id="toc-etc" class="nav-link" data-scroll-target="#etc">ETC</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -137,9 +229,41 @@ window.addEventListener('load', () => {
 </header>
 
 
-<p>Welcome, you have access to Chad (Chungil Chae)’s intellectual portal.</p>
+<section id="welcome" class="level1">
+<h1>Welcome</h1>
+<p>You have access to Chad (Chungil Chae)’s intellectual portal. Currently, you can access to Chad’s Course Portfolio Potal and Working Research Potal. This is the main gate of Chad’s intellectural works.</p>
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">Research</h2>
+<ul>
+<li>Working Research Portfolio</li>
+<li>Completed Research Project Archieve</li>
+</ul>
+</section>
+<section id="course-development" class="level2">
+<h2 class="anchored" data-anchor-id="course-development">Course Development</h2>
+<ul>
+<li>Current Teaching Courses Portfolio</li>
+<li>Completed Course Development Portfolio</li>
+</ul>
+</section>
+<section id="lecture-series" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-series">Lecture Series</h2>
+</section>
+<section id="workshop" class="level2">
+<h2 class="anchored" data-anchor-id="workshop">Workshop</h2>
+</section>
+<section id="presentation-talk" class="level2">
+<h2 class="anchored" data-anchor-id="presentation-talk">Presentation &amp; Talk</h2>
+</section>
+<section id="development" class="level2">
+<h2 class="anchored" data-anchor-id="development">Development</h2>
+</section>
+<section id="etc" class="level2">
+<h2 class="anchored" data-anchor-id="etc">ETC</h2>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
